@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a,li,ul,span,div,button,form,label,input,textarea,select,option,nav,footer,header{
+    margin: 0;
+    color: white;
+}
+nav{
+    background-color: #08466A;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    align-items: center;
+}
+.navElements{
+    display: flex;
+    gap: 32px;
+}
+.intro{
+    background-image: url("./images/robot.png");
+    background-size: cover;
+    height: 90vh;
+    background-position: bottom;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 16px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+}
+.intro p{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+h2{
+    padding-left: 5%;
+    padding-top: 64px;
+}
+#meetings{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 32px;
+}
+.meeting{
+    background-color: #08466A;
+    padding: 16px;
+    border-radius: 8px;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+}
+.meeting h3{
+    margin-top: 16px;
+}
+.meetingImg{
+    padding: 100px;
+    background-color: #fff;
+}
+.collage{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.collagetext1{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 32px;
+}
+.collage img{
+    width: 50%;
+}
+.teamText{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.teamMember{
+    background-color: #08466A;
+    padding: 16px;
+    border-radius: 8px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+}
+.teamMember img{
+    width: 150px;
+    height: 200px;
+    margin-top: 16px;
+    padding-bottom: 16px;
+}
